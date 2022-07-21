@@ -19,9 +19,9 @@ const { generateJWEAndJWS } = require('payglocal-js-client');
 
 const data = {
   payload, // transaction payload in proper format refer to our integration guide (required)
-  publicKey, // payglobal public key (downloaded from gcc) (required)
+  publicKey, // PayGlocal public key (downloaded from gcc) (required)
   privateKey, // private key (generated and downloaded from gcc) (required)
-  merchantId, // unique merchant id (provided by payglocal) (required)
+  merchantId, // unique merchant id (provided by PayGlocal) (required)
   privateKeyId, // kid for private key (required)
   publicKeyId // kid for public key (required)
 };

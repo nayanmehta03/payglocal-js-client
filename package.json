@@ -1,14 +1,13 @@
 {
-  "name": "payglocal-js-client",
+  "name": "checkout-app",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Checkout.com-inspired payment app",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+      "start": "node server.js"
   },
-  "author": "",
-  "license": "MIT",
   "dependencies": {
-    "jose": "^4.8.1"
+      "axios": "^1.7.2",
+      "express": "^4.19.2"
   }
 }

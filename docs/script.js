@@ -167,7 +167,7 @@ async function initiatePayment() {
         const result = await response.json();
         if (result.success) {
             alert('Payment initiated successfully!');
-            console.log(result.data);
+            window.open(result.data["data"]["redirectUrl"],"_self");
         } else {
             throw new Error(result.error);
         }
